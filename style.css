@@ -127,13 +127,3 @@ footer {
   color: #333;
 }
 
-/* index.html */
-<section id="qr">
-  <h2>Scan Me!</h2>
-  <p>You can access this website on your phone too:</p>
-  <img src="images/qrcode.png" alt="QR Code to Grandma's site" class="qr-img">
-</section>
-
-<footer>
-  <p>© 2025 Created with love by Adva Halamish</p>
-</footer>
