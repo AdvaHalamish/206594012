@@ -15,6 +15,7 @@ nav {
   background-color: #add8e6;
   padding: 10px;
   z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -86,6 +87,12 @@ section {
   transform: scale(1.05);
 }
 
+.qr-img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -116,4 +123,17 @@ footer {
   padding: 20px;
   background-color: #e0e0e0;
   margin-top: 30px;
+  font-size: 0.9em;
+  color: #333;
 }
+
+/* index.html */
+<section id="qr">
+  <h2>Scan Me!</h2>
+  <p>You can access this website on your phone too:</p>
+  <img src="images/qrcode.png" alt="QR Code to Grandma's site" class="qr-img">
+</section>
+
+<footer>
+  <p>© 2025 Created with love by Adva Halamish</p>
+</footer>
