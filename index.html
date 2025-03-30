@@ -17,8 +17,11 @@
         <li><a href="#like">Like</a></li>
         <li><a href="#contact">Contact Me</a></li>
         <li><a href="#qa">Q&A</a></li>
+        <li><a href="#whatsapp">WhatsApp</a></li>
+        <li><a href="#calendar">Calendar</a></li>
       </ul>
     </nav>
+    
   </header>
 
   <main>
@@ -87,21 +90,39 @@
       </a>
     </section>
 
-
-    <section id="like">
-      <h2>Like this page</h2>
-      <div class="fb-like" data-href="https://your-page.github.io" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+    <section id="whatsapp">
+      <h2>Use WhatsApp</h2>
+      <a href="https://wa.me/972546666666" target="_blank">
+        <img src="images/WhatsAppLogo.png" alt="WhatsApp Logo" width="100" height="100">
+      </a>
     </section>
+
+    <section id="calendar">
+  <h2>Family Calendar</h2>
+  <p>Here you can see our upcoming events, celebrations and important days 🎉</p>
+  <div class="calendar-container">
+    <iframe src="https://calendar.google.com/calendar/embed?src=tsaih36%40gmail.com&ctz=Asia%2FJerusalem" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+</section>
+
+
+<section id="like">
+  <h2>Like this page</h2>
+  <a href="https://www.facebook.com/profile.php?id=61553900315421" target="_blank">
+    <img src="images/Facebook_Logo.png" alt="Facebook Like" width="60" style="border-radius: 8px;">
+  </a>
+  <p>Like us💙</p>
+</section>
 
     <section id="contact">
       <h2>Contact Me</h2>
-      <form>
+      <form action="https://formspree.io/f/xkgjvqbk" method="POST">
         <label>Email:</label><br>
         <input type="email" name="email" required><br>
-
+    
         <label>Message:</label><br>
         <textarea name="message" required></textarea><br>
-
+    
         <label>Choose a smiley:</label><br>
         <select name="smiley">
           <option value=":)">🙂</option>
@@ -109,19 +130,31 @@
           <option value=":(">🙁</option>
         </select><br>
 
+        <input type="hidden" name="_next" value="thankyou.html">
+    
         <button type="submit">Send</button>
       </form>
+  
     </section>
-
+    
+    
     <section id="qa">
       <h2>Q&A</h2>
-      <p>1. Differences between Web1, Web2, Web3:</p>
+    
+      <h3>1. מה ההבדלים בין Web1, Web2 ו-Web3?</h3>
       <ul>
-        <li><strong>Web1:</strong> Static pages, read-only.</li>
-        <li><strong>Web2:</strong> Interactive, user-generated content, social media.</li>
-        <li><strong>Web3:</strong> Decentralized, blockchain-based, ownership by users.</li>
+        <li><strong>Web1:</strong> אינטרנט סטטי – אתרים עם תוכן קריאה בלבד, ללא אינטראקציה. המשתמשים רק צופים במידע.</li>
+        <li><strong>Web2:</strong> אינטרנט חברתי – גולשים משתפים תוכן, מגיבים, כותבים פוסטים. פלטפורמות כמו פייסבוק, יוטיוב, ויקיפדיה.</li>
+        <li><strong>Web3:</strong> אינטרנט מבוזר – המשתמשים שולטים בתוכן ובנתונים שלהם. שימוש בבלוקצ'יין, אפליקציות ללא גוף מרכזי, בעלות על מידע אישי.</li>
       </ul>
-      <p>Example: Searching "medicine side effects"...</p>
+    
+      <h3>2. דוגמה שימושית – הזמנת מונית:</h3>
+      <ul>
+        <li><strong>ב-Web1:</strong> נכנסים לאתר של תחנת מוניות, רואים את מספר הטלפון ומתקשרים להזמין.</li>
+        <li><strong>ב-Web2:</strong> משתמשים באפליקציה כמו Gett או Uber – מבקשים מונית, מקבלים דירוגים ונהג, משלמים באשראי.</li>
+        <li><strong>ב-Web3:</strong> משתמשים באפליקציית מוניות מבוזרת – הנהגים והנוסעים מחוברים ישירות דרך בלוקצ'יין, בלי חברה באמצע. התשלום נעשה במטבע דיגיטלי, והדירוגים מאוחסנים בצורה שקופה ובטוחה.</li>
+      </ul>
+    
     </section>
   </main>
 
